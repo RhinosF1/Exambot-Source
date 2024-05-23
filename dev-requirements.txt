@@ -8,3 +8,4 @@ flake8-future-import<0.4.6
 setuptools<40.0; python_version == '3.3'
 sphinx
 sphinxcontrib-autoprogram
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
